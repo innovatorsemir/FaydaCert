@@ -1,8 +1,9 @@
-# Project Title:FaydaCert 
+# Project Title: FaydaCert 
 FaydaVerify - Academic Certificate Verification  
 ## Contributors: 
-Semir Nesredin
-Bereket Weldemichael
+>1. Semir Nesredin
+>2. Bereket Weldemichael
+>3. 
 
 ## Project Synopsis  
 ### Problem Statement  
