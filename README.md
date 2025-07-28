@@ -3,7 +3,7 @@ FaydaVerify - Academic Certificate Verification
 ## Contributors: 
 >1. Semir Nesredin
 >2. Bereket Weldemichael
->3. 
+>3. Abraham Melesse
 
 ## Project Synopsis  
 ### Problem Statement  
