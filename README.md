@@ -1,4 +1,4 @@
-# Project Title: FaydaVerify - Academic Certificate Verification  
+# Project Title:FaydaCert (FaydaVerify - Academic Certificate Verification)  
 ## Contributors: Semir Nesredin  
 
 ## Project Synopsis  
