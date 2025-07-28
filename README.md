@@ -7,7 +7,8 @@ FaydaVerify - Academic Certificate Verification
 
 ## Project Synopsis  
 ### Problem Statement  
-> Widespread fake academic certificates causing fraud in hiring/education.  
+Fake academic certificates are causing widespread fraud in education and employment. Employers and universities struggle to verify credentials securely and quickly.
+ 
 
 ### Planned Solution  
 > 1. Institutions upload digitally signed certificates linked to student's Fayda ID  
