@@ -1,0 +1,16 @@
+## Docker Support
+
+This project includes Docker configuration files (`Dockerfile`, `docker-compose.yml`) to help containerize the app.
+
+### Current status
+
+- The app works fine when run locally with `npm run dev`.
+- Docker support is under development — the app may not fully work inside Docker yet.
+- Issues encountered include connection errors to MongoDB inside Docker and port conflicts.
+- Contributions and suggestions to improve Dockerization are welcome!
+
+### Running locally (no Docker)
+
+```bash
+npm install
+npm run dev
