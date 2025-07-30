@@ -1,0 +1,22 @@
+client/
+├── public/
+│   └── index.html
+├── src/
+│   ├── assets/                  # Images, logos, etc.
+│   ├── components/              # Reusable UI components (Navbar, Button, etc.)
+│   ├── layouts/                 # Shared layouts (Sidebar + Content)
+│   ├── pages/                   # All route-based pages
+│   │   ├── admin/               # Admin-specific pages
+│   │   ├── student/             # Student-specific pages
+│   │   ├── institution/         # Institution-specific pages
+│   │   └── employer/            # Employer-specific pages
+│   ├── services/                # API calls and FaydaCert backend functions
+│   ├── context/                 # Global state or auth context (Fayda login)
+│   ├── routes/                  # App routes and access control
+│   ├── utils/                   # Helper functions (e.g., QR generator)
+│   ├── App.jsx                  # Main app entry
+│   ├── index.jsx                # React DOM entry
+│   └── tailwind.config.js       # Tailwind setup
+├── .env                         # API keys or env config
+├── package.json
+└── README.md
