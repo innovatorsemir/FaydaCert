@@ -33,3 +33,50 @@ Fake academic certificates are causing widespread fraud in education and employm
 | Database  | MongoDB (certificate metadata) |  
 | Security  | VeriFayda OIDC, Blockchain hashing |  
 | DevOps    | AWS S3 (certificate storage), Vercel |  
+ student/
+Contains all features related to student interactions with the system.
+
+Features:
+
+My Certificates Page (View and download)
+
+Certificate Verification History
+
+Access Control for Employers
+
+Certificate Correction Request Form
+
+ institution/
+Used by academic institutions to issue and manage certificates.
+
+Features:
+
+Certificate Upload Form (Name, Degree, GPA, Date, etc.)
+
+Digital Signing Tool for tamper-proof verification
+
+Link certificates to students using Fayda ID
+
+ admin/
+Admin tools to oversee the platform, manage users, and verify data.
+
+Features:
+
+Department and POI (Point of Interest) Management
+
+Analytics Dashboard (e.g., verification stats)
+
+Certificate correction approval workflow
+
+employer/
+For employers to verify academic credentials of candidates.
+
+Features:
+
+Certificate Verification using QR + OTP
+
+Certificate Request Access System
+
+View Verification History
+
+
