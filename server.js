@@ -1,11 +1,11 @@
-// server.js
-import app from './app.js'
-import  connectDB  from './config/db.js'
+import app from "../app.js";        // your Express app
+import connectDB from "../config/db.js";
 
-const PORT = process.env.PORT || 5000
+// Connect to MongoDB
+connectDB().catch(err => console.error(err));
 
-connectDB()
-
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`)
-})
+// Export as serverless function
+export default async function handler(req, res) {
+  // Wait for MongoDB connection if needed
+  app(req, res);
+}
