@@ -1,12 +1,14 @@
-import mongoose from 'mongoose';
+import mongoose from "mongoose";
 
 const certificateSchema = new mongoose.Schema({
-  studentName: String,
-  institution: String,
-  degree: String,
-  hash: String,
-  faydaId: String,
-  issuedAt: Date,
-});
+  studentFaydaId: { type: String, required: true, index: true },
+  studentName: { type: String, required: true },
+  degree: { type: String, required: true },
+  gpa: { type: String, required: true },
+  dateIssued: { type: Date, required: true },
+  fileUrl: { type: String, required: true },
+  uploadedBy: { type: String, required: true }, // institution name or ID
+  txHash: { type: String }  // blockchain transaction hash
+}, { timestamps: true });
 
-export default mongoose.model('Certificate', certificateSchema);
+export default mongoose.model("Certificate", certificateSchema);

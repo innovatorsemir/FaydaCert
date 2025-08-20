@@ -1,0 +1,45 @@
+# Node modules
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache
+.npm
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Env files (do NOT copy secrets into the image)
+.env
+.env.local
+.env.development
+.env.production
+
+# Editor folders
+.vscode
+.idea
+*.swp
+
+# Build output
+dist
+build
+coverage
